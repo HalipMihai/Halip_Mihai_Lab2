@@ -17,5 +17,7 @@ namespace Halip_Mihai_Lab2.Data
         public DbSet<Halip_Mihai_Lab2.Models.Book> Book { get; set; } = default!;
 
         public DbSet<Halip_Mihai_Lab2.Models.Publisher>? Publisher { get; set; }
+
+        public DbSet<Halip_Mihai_Lab2.Models.Author>? Author { get; set; }
     }
 }
